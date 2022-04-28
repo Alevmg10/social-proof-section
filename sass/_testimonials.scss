@@ -3,6 +3,7 @@
     grid-template-columns: repeat(9, 1fr);
     // grid-template-rows: 1fr 1fr;
     column-gap: 30px;
+    margin-top: -50px;
 }
 
 .card {
@@ -10,7 +11,9 @@
     border-radius: 10px;
     color: #fff;
     // box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    padding: 20px;
+    padding: 24px;
+    width: 280px;
+    height: 210px;
 }
 
 .card__header {
@@ -20,13 +23,16 @@
         position: absolute;
         left: 60px;
         font-size: 14px;
-
+        font-family: $font-stack;
     }
     p {
         position: absolute;
         left: 60px;
         top: 20px;
         opacity: 50%;
+        font-size: 14px;
+        font-family: $font-stack;
+        color: $secondary-color;
     }
 }
 
@@ -42,6 +48,9 @@
     font-size: 12px;
     line-height: 1.4;
     margin-top: 20px;
+    font-family: $font-stack;
+    line-height: 1.6;
+    font-weight: 500;
 }
 
 

@@ -12,15 +12,17 @@ body {
     font-family: $font-stack;
     font-size: 15px;
     line-height: 1.6;
-    background-color: hsl(0, 0%, 100%);
+    background-color: $white;
     
 }
 
 .main-container {
     max-width: 1440px;
-    min-height: 100vh;
-    padding: 100px;
-    // margin: 40px;
+    max-height: 100vh;
+    padding: 100px 166px;
     display: flex;
     flex-direction: column;
+    background-image: url(/images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+
 }
