@@ -68,3 +68,61 @@
 .rated-review:nth-of-type(3) {
     margin-left: -25px;
 }
+
+@media(max-width: 768px) {
+    
+    .text-rated-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        width: 280px;
+
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+
+    .rated-star {
+        width: 280px;
+        margin-top: 20px;
+    }
+
+    .rated-review {
+        width: 280px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h5 {
+            margin-left: 0;
+        }
+    }
+
+    .rated-review-icon {
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .rated-review:nth-of-type(1) {
+        margin-left: 0;
+        margin-bottom: 16px;
+    }
+    
+    .rated-review:nth-of-type(2) {
+        margin-left: 0;
+        margin-bottom: 16px;
+    }
+    
+    .rated-review:nth-of-type(3) {
+        margin-left: 0;
+    }
+}

@@ -24,5 +24,11 @@ body {
     flex-direction: column;
     background-image: url(/images/bg-pattern-top-desktop.svg);
     background-repeat: no-repeat;
+}
 
+@media(max-width: 768px) {
+
+    .main-container {
+        background-image: url(/images/bg-pattern-top-mobile.svg);
+    }
 }
